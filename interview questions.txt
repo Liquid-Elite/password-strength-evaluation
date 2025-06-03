@@ -1,0 +1,97 @@
+1. What makes a password strong?
+
+A strong password is one that is difficult for both humans and machines to guess or crack. Characteristics of a strong password include:
+Length: At least 12–16 characters long.
+Complexity: Includes a mix of:
+Uppercase letters (A–Z)
+Lowercase letters (a–z)
+Numbers (0–9)
+Special symbols (!, @, #, $, etc.)
+Unpredictability: Does not follow predictable patterns like 1234 or abcd.
+No personal information: Avoids names, birthdays, or words related to the user.
+No dictionary words: Single real words can be guessed using dictionary attacks.
+A good example: D!e2E5Z98N8Ut%s — long, complex, random, and secure.
+
+
+2. What are common password attacks?
+
+Here are the most frequent attacks used to steal or crack passwords:
+Brute-Force Attack: Tries all possible combinations until the correct password is found.
+Dictionary Attack: Uses a list of common or real words to guess passwords.
+Credential Stuffing: Uses leaked credentials from one site to try logging into others.
+Phishing: Tricks users into entering passwords on fake websites.
+Keylogging: Malware records keystrokes to steal passwords.
+Rainbow Table Attack: Uses precomputed hash tables to crack hashed passwords quickly.
+Each of these attacks exploits weak, reused, or predictable passwords.
+
+
+3. Why is password length important?
+
+Password length increases entropy, which refers to the number of possible combinations. Longer passwords:
+Require exponentially more time and resources to crack using brute-force.
+Are generally harder to guess or brute-force even with powerful computers.
+Make attacks like rainbow tables and dictionary attacks less effective.
+For example:
+A 6-character password using only lowercase has ~308 million combinations.
+A 12-character password with mixed characters has over 6 quadrillion combinations.
+More characters = more security.
+
+
+4. What is a dictionary attack?
+
+A dictionary attack is a method where the attacker attempts to guess passwords by systematically testing each word from a precompiled list (called a "dictionary").
+Often used because many users choose common words or phrases as passwords.
+Faster than brute-force because it targets likely candidates first.
+Defense:
+Avoid using single dictionary words.
+Add random numbers, symbols, and unrelated words.
+Use passphrases or nonsensical combinations.
+
+
+5. What is multi-factor authentication (MFA)?
+
+Multi-Factor Authentication (MFA) is a security method that requires users to present two or more different types of evidence to verify their identity:
+Something you know: Password or PIN.
+Something you have: Mobile phone, security token, smart card.
+Something you are: Biometric data (fingerprint, face scan, iris scan).
+Example: Logging into your email with a password + OTP sent to your phone.
+Benefits:
+Even if your password is stolen, the attacker still cannot log in without the second factor.
+Drastically reduces the risk of unauthorized access.
+
+
+6. How do password managers help?
+
+Password managers are tools that generate, store, and autofill strong, unique passwords for every website.
+Advantages:
+Eliminate the need to remember multiple complex passwords.
+Encourage the use of long, randomized, secure passwords.
+Protect against phishing (many managers won’t autofill credentials on fake websites).
+Secure data storage using strong encryption.
+Popular examples: LastPass, Bitwarden, 1Password, Dashlane.
+
+
+7. What are passphrases?
+
+A passphrase is a sequence of words or a full sentence used as a password.
+Example: Correct!Horse$Battery_Staple9
+Benefits:
+Easier to remember than random character strings.
+Much stronger than a single dictionary word.
+Harder to guess if the words are unrelated and include symbols/numbers.
+Tips:
+Avoid famous quotes or phrases.
+Mix in capitalization and punctuation for complexity.
+
+
+8. What are common mistakes in password creation?
+
+Users often make poor password choices that expose them to attacks. Common mistakes include:
+Using common passwords (e.g., 123456, password, qwerty).
+Using personal information (e.g., name, birthday, phone number).
+Reusing passwords across multiple sites.
+Using short passwords (less than 8–10 characters).
+Relying on simple patterns (e.g., abcd1234, aaaa1111).
+Using full dictionary words (e.g., sunshine, football).
+Not updating passwords after a breach or security warning.
+Avoiding these mistakes is essential for good password hygiene.
